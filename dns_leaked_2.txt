@@ -1,6 +1,6 @@
 ; <<>> DiG 9.10.3-P4-Ubuntu <<>> AXFR @ns2.telkom.net.id telkom.net.id
 ; (1 server found)
-;; global options: +cmd
+; global options: +cmd
 telkom.net.id.		900	IN	SOA	ns1.telkom.net.id. hostmaster.telkom.net.id. 2016012700 7200 3600 1814400 3600
 telkom.net.id.		900	IN	AAAA	2001:4488:4:600d::3
 telkom.net.id.		900	IN	TXT	"PT.Telekomunikasi Indonesia, Official Corporate Domain"
