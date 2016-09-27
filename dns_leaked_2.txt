@@ -1,0 +1,349 @@
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> AXFR @ns2.telkom.net.id telkom.net.id
+; (1 server found)
+;; global options: +cmd
+telkom.net.id.		900	IN	SOA	ns1.telkom.net.id. hostmaster.telkom.net.id. 2016012700 7200 3600 1814400 3600
+telkom.net.id.		900	IN	AAAA	2001:4488:4:600d::3
+telkom.net.id.		900	IN	TXT	"PT.Telekomunikasi Indonesia, Official Corporate Domain"
+telkom.net.id.		900	IN	TXT	"v=spf1 ip4:202.134.0.0/24 ip4:203.130.196.0/24 ip4:125.160.17.0/24 ip4:125.160.10.128/27 ip4:125.160.240/28 ip4:222.124.18.128/27 ~all"
+telkom.net.id.		5	IN	MX	1 mx1.mail.plasa.com.
+telkom.net.id.		5	IN	MX	1 mx2.mail.plasa.com.
+telkom.net.id.		5	IN	MX	11 mx1.telkom.net.id.
+telkom.net.id.		5	IN	MX	11 mx2.telkom.net.id.
+telkom.net.id.		5	IN	MX	11 mailgate1.telkom.net.id.
+telkom.net.id.		5	IN	MX	11 mailgate2.telkom.net.id.
+telkom.net.id.		900	IN	A	202.134.0.12
+telkom.net.id.		7200	IN	NS	ns1.telkom.net.id.
+telkom.net.id.		7200	IN	NS	ns2.telkom.net.id.
+telkom.net.id.		7200	IN	NS	ns3.telkom.net.id.
+telkom.net.id.		7200	IN	NS	dns1.telkom.net.id.
+telkom.net.id.		7200	IN	NS	dns2.telkom.net.id.
+_domainkey.telkom.net.id. 900	IN	TXT	"t=y; o=~; n=http://antispam.yahoo.com/domainkeys"
+select._domainkey.telkom.net.id. 900 IN	TXT	"t=y;k=rsa;  p=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMSk7sbUhv5wEaXUUAnnMIFgIcQiDEc4ms8HJilUjrWyB47cBDeRBpqb8gg0pikXZyViSlJGRt/WK6J/JRDAuLECAwEAAQ=="
+acid.telkom.net.id.	900	IN	A	202.134.0.82
+admin.telkom.net.id.	900	IN	A	202.134.0.132
+admin-dial.telkom.net.id. 900	IN	A	202.134.0.140
+alarm.telkom.net.id.	900	IN	A	202.134.2.167
+app-mx.telkom.net.id.	900	IN	A	202.134.0.31
+astinet.telkom.net.id.	900	IN	NS	dns1.telkom.net.id.
+astinet.telkom.net.id.	900	IN	NS	dns2.telkom.net.id.
+bakeuda-bjm.telkom.net.id. 900	IN	A	222.124.148.182
+balikpapan.telkom.net.id. 900	IN	A	118.98.28.25
+bankaltim.telkom.net.id. 900	IN	A	118.98.28.69
+birokeuangankalsel.telkom.net.id. 900 IN A	118.98.28.23
+blocked.telkom.net.id.	900	IN	A	202.134.0.135
+bpdkalsel.telkom.net.id. 900	IN	A	118.98.28.71
+breakthrough.telkom.net.id. 900	IN	A	202.134.0.12
+cache-jkt.telkom.net.id. 900	IN	A	202.134.0.223
+cache1-btm.telkom.net.id. 900	IN	A	118.98.31.101
+cache1-jkt.telkom.net.id. 900	IN	A	202.134.0.224
+cache2-btm.telkom.net.id. 900	IN	A	118.98.31.102
+cache2-jkt.telkom.net.id. 900	IN	A	202.134.0.225
+CacheDNS-BDG.telkom.net.id. 900	IN	A	222.124.204.34
+CacheDNS-BPP.telkom.net.id. 900	IN	A	203.130.209.242
+CacheDNS-BTM.telkom.net.id. 900	IN	A	203.130.193.74
+CacheDNS-DPS.telkom.net.id. 900	IN	AAAA	2001:4488::122
+CacheDNS-DPS.telkom.net.id. 900	IN	A	125.160.2.34
+CacheDNS-JKT2.telkom.net.id. 900 IN	A	203.130.196.5
+CacheDNS-JKT3.telkom.net.id. 900 IN	A	203.130.196.155
+CacheDNS-JKT4.telkom.net.id. 900 IN	A	202.134.0.61
+CacheDNS-MDN.telkom.net.id. 900	IN	A	203.130.206.250
+CacheDNS-MKS.telkom.net.id. 900	IN	A	125.160.2.162
+CacheDNS-SBY1.telkom.net.id. 900 IN	A	202.134.1.10
+CacheDNS-SBY2.telkom.net.id. 900 IN	A	125.160.4.82
+CacheDNS-SMG.telkom.net.id. 900	IN	A	203.130.208.18
+CacheDNS-TMK.telkom.net.id. 900	IN	A	125.160.2.226
+colocation.telkom.net.id. 900	IN	NS	dns1.telkom.net.id.
+colocation.telkom.net.id. 900	IN	NS	dns2.telkom.net.id.
+consumer.telkom.net.id.	900	IN	A	118.98.43.41
+core-sw-karet.telkom.net.id. 900 IN	A	202.134.4.2
+cvxview.telkom.net.id.	900	IN	A	202.134.0.12
+danamon.telkom.net.id.	900	IN	NS	dns1.telkom.net.id.
+db-router.telkom.net.id. 900	IN	A	202.134.0.132
+dba.telkom.net.id.	900	IN	A	202.134.0.198
+dc.telkom.net.id.	900	IN	A	203.130.196.220
+dc-is-po.telkom.net.id.	900	IN	A	203.130.196.169
+dc-karet.telkom.net.id.	900	IN	A	202.134.5.2
+dial.telkom.net.id.	900	IN	A	202.134.0.147
+dispenda.telkom.net.id.	900	IN	A	222.124.148.121
+dispendukbjn.telkom.net.id. 900	IN	A	222.124.148.63
+dns1.telkom.net.id.	900	IN	A	202.134.0.62
+dns2.telkom.net.id.	900	IN	A	222.124.18.62
+dnsbeta1.telkom.net.id.	900	IN	A	222.124.18.21
+dnsbeta2.telkom.net.id.	900	IN	A	222.124.18.22
+dnslb1.telkom.net.id.	900	IN	A	202.134.0.131
+dnslb2.telkom.net.id.	900	IN	A	202.134.0.132
+dnslb3.telkom.net.id.	900	IN	A	202.134.0.133
+dnslb4.telkom.net.id.	900	IN	A	202.134.0.134
+dominoventus.telkom.net.id. 900	IN	MX	10 mx1.telkom.net.id.
+dominoventus.telkom.net.id. 900	IN	MX	10 mx2.telkom.net.id.
+dppkad-nunukan.telkom.net.id. 900 IN	A	118.98.28.78
+dukcapil.telkom.net.id.	900	IN	A	222.124.148.114
+dummy.telkom.net.id.	900	IN	A	202.134.0.44
+dust.telkom.net.id.	900	IN	CNAME	admin-dial.telkom.net.id.
+ensimtest.telkom.net.id. 900	IN	A	203.130.196.210
+exilog.telkom.net.id.	900	IN	A	202.134.5.2
+fileserver.telkom.net.id. 900	IN	A	202.134.0.151
+flexi-atm.telkom.net.id. 900	IN	A	202.134.0.172
+flexipack.telkom.net.id. 900	IN	NS	dns1.telkom.net.id.
+flexipack.telkom.net.id. 900	IN	NS	dns2.telkom.net.id.
+flexivpn.telkom.net.id.	900	IN	A	222.124.148.18
+forkom.telkom.net.id.	900	IN	A	202.134.0.132
+fr2g.telkom.net.id.	900	IN	A	202.134.0.12
+frtg.telkom.net.id.	900	IN	A	202.134.0.12
+frtg1.telkom.net.id.	900	IN	A	202.134.0.12
+ftp.telkom.net.id.	900	IN	A	202.134.0.220
+garuda.telkom.net.id.	900	IN	A	202.134.0.145
+gateway.telkom.net.id.	900	IN	A	202.134.0.12
+gsd.telkom.net.id.	900	IN	A	203.130.226.205
+gsd-office.telkom.net.id. 900	IN	A	222.124.199.226
+h2h-tmm.telkom.net.id.	900	IN	A	202.134.0.12
+home.telkom.net.id.	900	IN	NS	dns1.telkom.net.id.
+home.telkom.net.id.	900	IN	NS	dns2.telkom.net.id.
+hotspot.telkom.net.id.	900	IN	A	203.130.196.150
+hpbb.telkom.net.id.	900	IN	NS	dns1.telkom.net.id.
+in-mta0.telkom.net.id.	900	IN	A	203.130.196.197
+in-mta1.telkom.net.id.	900	IN	TXT	"v=spf1 a -all"
+in-mta1.telkom.net.id.	900	IN	A	203.130.196.198
+in-mta2.telkom.net.id.	900	IN	A	202.134.0.72
+in-mta3.telkom.net.id.	900	IN	A	202.134.0.73
+in-mta4.telkom.net.id.	900	IN	A	202.134.0.74
+inest.telkom.net.id.	900	IN	A	118.98.35.11
+internet-sehat.telkom.net.id. 900 IN	A	118.97.224.2
+inti-vpninstan.telkom.net.id. 900 IN	A	222.124.148.186
+intrabojonegoro.telkom.net.id. 900 IN	A	222.124.148.57
+ip.telkom.net.id.	900	IN	A	203.130.226.227
+ip-infra.telkom.net.id.	900	IN	A	202.134.0.12
+ipv6.telkom.net.id.	900	IN	AAAA	2001:4488:2100::4488
+irc.telkom.net.id.	900	IN	A	125.160.17.72
+kit.telkom.net.id.	900	IN	A	202.134.1.7
+LoadB-DNS.telkom.net.id. 900	IN	A	202.134.0.221
+loghost.telkom.net.id.	900	IN	A	202.134.0.206
+mx1.mail.telkom.net.id.	900	IN	A	222.124.18.71
+mx2.mail.telkom.net.id.	900	IN	A	222.124.18.72
+mailgate.telkom.net.id.	900	IN	A	202.134.0.146
+mailgate1.telkom.net.id. 900	IN	A	222.124.18.146
+mailgate2.telkom.net.id. 900	IN	A	222.124.18.147
+mailhost.telkom.net.id.	900	IN	A	203.130.196.102
+mailx.telkom.net.id.	900	IN	A	202.134.0.31
+makassar.telkom.net.id.	900	IN	A	10.11.5.9
+manpro.telkom.net.id.	900	IN	A	202.134.0.132
+mm-unair.telkom.net.id.	900	IN	A	202.134.0.132
+mma-astinet.telkom.net.id. 900	IN	NS	dns1.telkom.net.id.
+mma-astinet.telkom.net.id. 900	IN	NS	dns2.telkom.net.id.
+mmbiztel6.telkom.net.id. 900	IN	A	202.134.0.12
+monitoring.telkom.net.id. 900	IN	A	202.134.0.188
+mpls.telkom.net.id.	900	IN	NS	ns1.telkom.net.id.
+mpls.telkom.net.id.	900	IN	NS	ns3.telkom.net.id.
+mrj.telkom.net.id.	900	IN	A	202.134.0.132
+mrtg.telkom.net.id.	900	IN	A	202.134.0.12
+mrtg-app.telkom.net.id.	900	IN	A	202.134.0.31
+mrtg1.telkom.net.id.	900	IN	A	202.134.0.12
+mrtg10.telkom.net.id.	900	IN	A	202.134.0.233
+mssql.telkom.net.id.	900	IN	A	203.130.196.40
+MTower-MM.telkom.net.id. 900	IN	A	203.130.226.203
+multiweb1.telkom.net.id. 900	IN	A	202.134.0.131
+mx1.telkom.net.id.	60	IN	AAAA	2001:4488:4:600d::4
+mx1.telkom.net.id.	60	IN	A	203.130.196.18
+mx2.telkom.net.id.	900	IN	A	203.130.196.19
+mydns01.telkom.net.id.	900	IN	A	222.124.18.84
+mydns02.telkom.net.id.	900	IN	A	203.130.232.84
+mysql.telkom.net.id.	900	IN	A	203.130.196.150
+mysql50-telkomhosting.telkom.net.id. 900 IN A	202.134.0.195
+nc-serv.telkom.net.id.	900	IN	A	202.134.0.222
+new.telkom.net.id.	900	IN	NS	dns1.plasa.com.
+new.telkom.net.id.	900	IN	NS	dns2.plasa.com.
+news.telkom.net.id.	900	IN	A	202.134.0.130
+nms.telkom.net.id.	900	IN	A	202.134.2.170
+noms.telkom.net.id.	900	IN	A	202.134.0.12
+ns1.telkom.net.id.	900	IN	AAAA	2001:4488:4:600d::5
+ns1.telkom.net.id.	900	IN	A	203.130.196.6
+ns2.telkom.net.id.	900	IN	A	222.124.18.193
+ns3.telkom.net.id.	900	IN	A	202.134.1.5
+nsbtm2.telkom.net.id.	900	IN	A	61.94.230.13
+nsnad1.telkom.net.id.	900	IN	A	125.160.10.2
+nspri1.telkom.net.id.	900	IN	A	202.134.0.63
+nspri2.telkom.net.id.	900	IN	A	202.134.0.64
+webmail.old.telkom.net.id. 900	IN	A	202.134.0.12
+omt.telkom.net.id.	900	IN	A	202.134.0.12
+admin.omt.telkom.net.id. 900	IN	A	202.134.0.12
+admin3.omt.telkom.net.id. 900	IN	A	202.134.0.12
+omt3.telkom.net.id.	900	IN	A	202.134.0.12
+opted-out-dns1.telkom.net.id. 900 IN	A	203.130.196.156
+opted-out-dns2.telkom.net.id. 900 IN	A	222.124.18.155
+orion.telkom.net.id.	900	IN	A	207.12.31.165
+pandu.telkom.net.id.	900	IN	A	202.134.2.5
+pariaman.telkom.net.id.	900	IN	A	222.124.148.184
+paserkab.telkom.net.id.	900	IN	A	222.124.148.83
+pdamkpr.telkom.net.id.	900	IN	A	222.124.148.163
+pdamtkr.telkom.net.id.	900	IN	A	172.21.170.14
+mrtg.pemilu.telkom.net.id. 900	IN	A	202.134.0.151
+pemkabkapuas.telkom.net.id. 900	IN	A	222.124.148.162
+plasaweb01.telkom.net.id. 900	IN	MX	10 in-mta3.plasa.com.
+plasaweb01.telkom.net.id. 900	IN	MX	20 in-mta2.plasa.com.
+plasaweb01.telkom.net.id. 900	IN	MX	30 in-mta1.plasa.com.
+plasaweb02.telkom.net.id. 900	IN	MX	10 in-mta3.plasa.com.
+plasaweb02.telkom.net.id. 900	IN	MX	20 in-mta2.plasa.com.
+plasaweb02.telkom.net.id. 900	IN	MX	30 in-mta1.plasa.com.
+plasaweb03.telkom.net.id. 900	IN	MX	10 in-mta3.plasa.com.
+plasaweb03.telkom.net.id. 900	IN	MX	20 in-mta2.plasa.com.
+plasaweb03.telkom.net.id. 900	IN	MX	30 in-mta1.plasa.com.
+plasaweb04.telkom.net.id. 900	IN	MX	10 mailgate.telkom.net.id.
+plasaweb05.telkom.net.id. 900	IN	MX	10 mailgate.telkom.net.id.
+plasaweb07.telkom.net.id. 900	IN	MX	10 mailgate.telkom.net.id.
+pln-tarakan.telkom.net.id. 900	IN	A	222.124.148.166
+www.pln-tarakan.telkom.net.id. 900 IN	A	222.124.148.166
+point.telkom.net.id.	900	IN	A	202.134.0.112
+poldajateng.telkom.net.id. 900	IN	A	222.124.148.78
+pop.telkom.net.id.	900	IN	A	202.134.0.30
+pop3.telkom.net.id.	900	IN	A	202.134.0.112
+posko.telkom.net.id.	900	IN	A	202.134.0.12
+proxies.telkom.net.id.	900	IN	A	125.160.17.33
+proxy-bdg.telkom.net.id. 900	IN	A	202.134.2.7
+proxy-jkt.telkom.net.id. 900	IN	A	202.134.0.227
+proxy-sby.telkom.net.id. 900	IN	A	202.134.1.5
+proxy-smg.telkom.net.id. 900	IN	A	203.130.243.242
+public.telkom.net.id.	900	IN	CNAME	smtp.telkom.net.
+public-files.telkom.net.id. 900	IN	A	202.134.0.171
+public-smtp.telkom.net.id. 900	IN	A	202.134.0.35
+public2.telkom.net.id.	900	IN	A	202.134.0.121
+relay.telkom.net.id.	900	IN	A	203.130.196.201
+report.telkom.net.id.	900	IN	A	202.134.2.171
+rh73-1.telkom.net.id.	900	IN	A	203.130.196.151
+rvK3pi3.telkom.net.id.	900	IN	CNAME	inest.telkom.net.id.
+smtps.gate.s10d1.telkom.net.id.	900 IN	A	125.160.10.135
+smtps.gate.s10d2.telkom.net.id.	900 IN	A	125.160.10.136
+smtps.gate.s10d3.telkom.net.id.	900 IN	A	125.160.10.137
+smtp.gate.s5d1.telkom.net.id. 900 IN	A	222.124.18.148
+smtp.gate.s6d1.telkom.net.id. 900 IN	A	222.124.18.149
+smtp.gate.s7d1.telkom.net.id. 900 IN	A	222.124.18.150
+smtps.gate.s8d1.telkom.net.id. 900 IN	A	125.160.6.243
+smtps.gate.s8d2.telkom.net.id. 900 IN	A	125.160.6.254
+shiva.telkom.net.id.	900	IN	A	203.130.251.114
+silver.telkom.net.id.	900	IN	A	203.130.196.207
+sip.telkom.net.id.	900	IN	A	180.250.22.124
+slipi1.telkom.net.id.	900	IN	A	203.130.232.10
+sme.telkom.net.id.	900	IN	A	118.98.35.35
+sms.telkom.net.id.	900	IN	A	202.134.0.170
+smtp.telkom.net.id.	5	IN	AAAA	2001:4488:4:600d::6
+smtp.telkom.net.id.	5	IN	A	203.130.196.201
+smtp-public.telkom.net.id. 900	IN	CNAME	smtp.telkom.net.
+smtps.telkom.net.id.	900	IN	A	222.124.18.145
+snd.telkom.net.id.	900	IN	A	222.124.148.22
+ambon.speedtest.telkom.net.id. 900 IN	A	118.98.83.58
+balikpapan.speedtest.telkom.net.id. 900	IN A	118.98.83.26
+bandung.speedtest.telkom.net.id. 900 IN	A	118.98.104.210
+banjarmasin.speedtest.telkom.net.id. 900 IN A	118.98.104.250
+batam.speedtest.telkom.net.id. 900 IN	A	118.98.104.202
+denpasar.speedtest.telkom.net.id. 900 IN A	118.98.104.226
+jakarta.speedtest.telkom.net.id. 900 IN	A	118.98.104.194
+jayapura.speedtest.telkom.net.id. 900 IN A	118.98.83.50
+makasar.speedtest.telkom.net.id. 900 IN	A	118.98.104.242
+manado.speedtest.telkom.net.id.	900 IN	A	118.98.83.34
+mataram.speedtest.telkom.net.id. 900 IN	A	118.98.83.42
+medan.speedtest.telkom.net.id. 900 IN	A	118.98.83.2
+palembang.speedtest.telkom.net.id. 900 IN A	118.98.83.18
+pekanbaru.speedtest.telkom.net.id. 900 IN A	118.98.83.10
+semarang.speedtest.telkom.net.id. 900 IN A	118.98.104.234
+sorong.speedtest.telkom.net.id.	900 IN	A	118.98.83.74
+surabaya.speedtest.telkom.net.id. 900 IN A	118.98.104.218
+ternate.speedtest.telkom.net.id. 900 IN	A	118.98.83.82
+timika.speedtest.telkom.net.id.	900 IN	A	118.98.83.66
+speedy.telkom.net.id.	900	IN	NS	dns1.telkom.net.id.
+speedy.telkom.net.id.	900	IN	NS	dns2.telkom.net.id.
+staff.telkom.net.id.	900	IN	MX	1 g2.plasa.com.
+staff.telkom.net.id.	900	IN	A	203.130.196.221
+_domainkey.staff.telkom.net.id.	900 IN	TXT	"t=y; o=~;"
+www.staff.telkom.net.id. 900	IN	CNAME	staff.telkom.net.id.
+farm.static151.telkom.net.id. 900 IN	A	222.124.18.151
+farm.static152.telkom.net.id. 900 IN	A	222.124.18.152
+farm.static153.telkom.net.id. 900 IN	A	222.124.18.153
+farm.static154.telkom.net.id. 900 IN	A	222.124.18.154
+farm.static155.telkom.net.id. 900 IN	A	222.124.18.155
+farm.static156.telkom.net.id. 900 IN	A	222.124.18.156
+farm.static157.telkom.net.id. 900 IN	A	222.124.18.157
+farm.static158.telkom.net.id. 900 IN	A	222.124.18.158
+farm.static159.telkom.net.id. 900 IN	A	222.124.18.159
+farm.static160.telkom.net.id. 900 IN	A	222.124.18.160
+farm.static161.telkom.net.id. 900 IN	A	222.124.18.161
+farm.static162.telkom.net.id. 900 IN	A	222.124.18.162
+farm.static163.telkom.net.id. 900 IN	A	222.124.18.163
+farm.static164.telkom.net.id. 900 IN	A	222.124.18.164
+farm.static165.telkom.net.id. 900 IN	A	222.124.18.165
+farm.static166.telkom.net.id. 900 IN	A	222.124.18.166
+farm.static167.telkom.net.id. 900 IN	A	222.124.18.167
+farm.static168.telkom.net.id. 900 IN	A	222.124.18.168
+farm.static169.telkom.net.id. 900 IN	A	222.124.18.169
+farm.static170.telkom.net.id. 900 IN	A	222.124.18.170
+farm.static171.telkom.net.id. 900 IN	A	222.124.18.171
+farm.static172.telkom.net.id. 900 IN	A	222.124.18.172
+farm.static173.telkom.net.id. 900 IN	A	222.124.18.173
+farm.static174.telkom.net.id. 900 IN	A	222.124.18.174
+farm.static175.telkom.net.id. 900 IN	A	222.124.18.175
+farm.static176.telkom.net.id. 900 IN	A	222.124.18.176
+farm.static177.telkom.net.id. 900 IN	A	222.124.18.177
+farm.static178.telkom.net.id. 900 IN	A	222.124.18.178
+farm.static179.telkom.net.id. 900 IN	A	222.124.18.179
+farm.static180.telkom.net.id. 900 IN	A	222.124.18.180
+farm.static181.telkom.net.id. 900 IN	A	222.124.18.181
+farm.static182.telkom.net.id. 900 IN	A	222.124.18.182
+farm.static183.telkom.net.id. 900 IN	A	222.124.18.183
+farm.static184.telkom.net.id. 900 IN	A	222.124.18.184
+farm.static185.telkom.net.id. 900 IN	A	222.124.18.185
+farm.static186.telkom.net.id. 900 IN	A	222.124.18.186
+farm.static187.telkom.net.id. 900 IN	A	222.124.18.187
+farm.static188.telkom.net.id. 900 IN	A	222.124.18.188
+farm.static189.telkom.net.id. 900 IN	A	222.124.18.189
+farm.static190.telkom.net.id. 900 IN	A	222.124.18.190
+farm.static191.telkom.net.id. 900 IN	A	222.124.18.191
+stats.telkom.net.id.	900	IN	A	203.130.196.211
+stream.telkom.net.id.	900	IN	A	203.130.196.200
+sunproxy.telkom.net.id.	900	IN	A	125.160.17.124
+sybmon.telkom.net.id.	900	IN	A	202.134.0.12
+tacacs.telkom.net.id.	900	IN	A	202.134.2.169
+tbox.telkom.net.id.	900	IN	A	125.160.17.67
+tempmx1.telkom.net.id.	900	IN	A	222.124.18.101
+tempmx2.telkom.net.id.	900	IN	A	222.124.18.102
+time.telkom.net.id.	900	IN	CNAME	yum.telkom.net.id.
+tticket.telkom.net.id.	900	IN	MX	10 in-mta3.plasa.com.
+tticket.telkom.net.id.	900	IN	MX	20 in-mta2.plasa.com.
+tticket.telkom.net.id.	900	IN	MX	30 in-mta1.plasa.com.
+smarthost1.v1gate.telkom.net.id. 900 IN	A	203.130.196.21
+smarthost2.v1gate.telkom.net.id. 900 IN	A	203.130.196.22
+smarthost1.v2gate.telkom.net.id. 900 IN	A	203.130.196.23
+smarthost2.v2gate.telkom.net.id. 900 IN	A	203.130.196.27
+smarthost1.v3gate.telkom.net.id. 900 IN	A	203.130.196.24
+smarthost2.v3gate.telkom.net.id. 900 IN	A	203.130.196.28
+smarthost1.v4gate.telkom.net.id. 900 IN	A	203.130.196.25
+smarthost2.v4gate.telkom.net.id. 900 IN	A	203.130.196.29
+smarthost1.v5gate.telkom.net.id. 900 IN	A	203.130.196.26
+smarthost2.v5gate.telkom.net.id. 900 IN	A	203.130.196.31
+ventus-exchange.telkom.net.id. 900 IN	MX	10 mx1.telkom.net.id.
+ventus-exchange.telkom.net.id. 900 IN	MX	10 mx2.telkom.net.id.
+vi6.telkom.net.id.	900	IN	A	222.124.148.99
+vidas.telkom.net.id.	900	IN	A	202.134.2.164
+vidas-jkt.telkom.net.id. 900	IN	A	202.134.2.164
+vidas-sby.telkom.net.id. 900	IN	A	202.134.1.18
+voip.telkom.net.id.	900	IN	A	203.130.217.175
+voip-care.telkom.net.id. 900	IN	A	202.134.0.12
+vpmon.telkom.net.id.	900	IN	A	202.134.0.12
+vpn-dial.telkom.net.id.	900	IN	A	202.134.0.140
+vpninstan.telkom.net.id. 900	IN	A	222.124.148.13
+vpnportal.telkom.net.id. 900	IN	A	10.2.7.5
+vpnprodiamdn.telkom.net.id. 900	IN	A	222.124.148.122
+vpntelkom.telkom.net.id. 900	IN	A	202.134.5.26
+vpntest.telkom.net.id.	900	IN	A	222.124.148.11
+wapmail.telkom.net.id.	900	IN	A	202.134.0.71
+web01.telkom.net.id.	900	IN	A	202.134.0.132
+webin.telkom.net.id.	900	IN	A	118.98.35.11
+webmail.telkom.net.id.	900	IN	A	202.134.0.12
+webserver1.telkom.net.id. 900	IN	A	202.134.0.132
+websrvjkt.telkom.net.id. 900	IN	A	202.134.0.136
+wisnu.telkom.net.id.	900	IN	A	202.134.0.137
+wisnu-sakti.telkom.net.id. 900	IN	A	202.134.0.135
+www.telkom.net.id.	900	IN	AAAA	2001:4488:4:600d::3
+www.telkom.net.id.	900	IN	A	202.134.0.12
+xeus-admin.telkom.net.id. 900	IN	A	202.134.1.8
+xmlivas.telkom.net.id.	900	IN	A	203.130.196.36
+yum.telkom.net.id.	900	IN	A	202.134.0.171
+ppc.yum.telkom.net.id.	900	IN	A	202.134.0.173
+telkom.net.id.		900	IN	SOA	ns1.telkom.net.id. hostmaster.telkom.net.id. 2016012700 7200 3600 1814400 3600
